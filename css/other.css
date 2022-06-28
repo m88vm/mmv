@@ -1,0 +1,35 @@
+.label-button {
+  background-color: #ff6700;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.375rem;
+  color: var(--cl-white);
+  height: fit-content;
+}
+
+.label-button.label-button_purple {
+  background-color: #883fff;
+}
+
+/* adaptive */
+/* mobile */
+
+@media (max-width: 640px) {
+  .label-button {
+    font-size: 10px;
+    font-weight: 750;
+    line-height: 12px;
+    letter-spacing: 0px;
+  }
+}
+
+/* adaptive */
+/* desktop */
+
+@media (min-width: 641px) {
+  .label-button {
+    font-size: 14px;
+    font-weight: 750;
+    line-height: 20px;
+    letter-spacing: 0px;
+  }
+}

@@ -1,0 +1,52 @@
+.demo-card {
+  color: var(--cl-white);
+  display: flex;
+  flex-direction: column;
+}
+.demo-card__picture {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: auto;
+}
+
+.demo-card__picture-block {
+  justify-content: center;
+}
+
+/* adaptive */
+/* mobile */
+@media (max-width: 640px) {
+  .demo-card {
+    width: 16rem;
+    border-radius: 1.25rem;
+  }
+  .demo-card__step-number {
+    padding: 1rem 1rem 1rem;
+    font-size: 40px;
+    font-weight: 750;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+  }
+  .demo-card__step-desc {
+    padding: 0 1rem 1.5rem;
+  }
+}
+
+/* adaptive */
+/* desktop */
+@media (min-width: 641px) {
+  .demo-card {
+    width: 20rem;
+    border-radius: 1.5rem;
+  }
+  .demo-card__step-number {
+    padding: 1.5rem 1.5rem 1rem;
+    font-size: 64px;
+    font-weight: 750;
+    line-height: 64px;
+    letter-spacing: -0.5px;
+  }
+  .demo-card__step-desc {
+    padding: 0 1.5rem 1.5rem;
+  }
+}

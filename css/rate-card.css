@@ -1,0 +1,24 @@
+.rate-card {
+  width: 10.5rem;
+  aspect-ratio: 0.67;
+  border-radius: 1rem;
+  background-color: var(--cl-white);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.rate-card__img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.rate-card__rate {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: auto;
+}
+
+.rate-card__text {
+  height: 2.25rem;
+  margin-top: 0.5rem;
+}

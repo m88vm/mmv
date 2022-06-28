@@ -1,0 +1,22 @@
+.page-4__header {
+}
+.page-4__content {
+  margin-right: auto;
+  display: flex;
+}
+
+/* adaptive */
+/* mobile */
+@media (max-width: 640px) {
+  .page-4__header {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* adaptive */
+/* desktop */
+@media (min-width: 641px) {
+  .page-4__header {
+    margin-bottom: 5.5rem;
+  }
+}

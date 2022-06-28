@@ -1,0 +1,33 @@
+.phone {
+  aspect-ratio: 1/2;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone__wrapper {
+  height: 100%;
+}
+.phone__content {
+  height: 95%;
+  position: absolute;
+}
+
+/* adaptive */
+/* mobile */
+
+@media (max-width: 640px) {
+  .phone {
+    height: 58.75vh;
+  }
+}
+
+/* adaptive */
+/* desktop */
+
+@media (min-width: 641px) {
+  .phone {
+    height: 65vh;
+  }
+}

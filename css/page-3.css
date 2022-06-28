@@ -1,0 +1,48 @@
+.page-3 {
+  align-items: flex-start;
+}
+
+.page-3__cards {
+  margin-right: auto;
+  overflow-x: auto;
+}
+
+.page-3__cards-content {
+  display: inline-flex;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.page-3__cards-content::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+/* adaptive */
+/* mobile */
+
+@media (max-width: 640px) {
+  .page-3__cards {
+    width: 80vw;
+  }
+  .page-3__header {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* adaptive */
+/* desktop */
+
+@media (min-width: 641px) {
+  .page-3__not-cards {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .page-3__cards {
+    overflow: auto;
+    width: 75vw;
+  }
+  .page-3__header {
+    margin-bottom: 3.5rem;
+  }
+}

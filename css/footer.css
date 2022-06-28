@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+/* adaptive */
+/* mobile */
+
+@media (max-width: 640px) {
+}
+
+/* adaptive */
+/* desktop */
+
+@media (min-width: 641px) {
+}
